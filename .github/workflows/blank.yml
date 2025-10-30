@@ -20,3 +20,7 @@ jobs:
         run: npm ci
       - name: Run Vitest
         run: npx vitest run
+      - name: Run ESLint
+        run: npm run lint
+      - name: Run Vitest
+        run: npx vitest run
